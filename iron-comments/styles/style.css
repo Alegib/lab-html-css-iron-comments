@@ -2,10 +2,40 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;
+    background-color: rgb(25, 33, 41); 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 #form-container {
     margin: auto;
+    border: 1px solid rgb(67, 163, 230);
+    padding: 20px 40px 20px 20px;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+   
+}
+
+.text {
+    color: white; 
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+}
+
+textarea {
+    resize: none;
+}
+
+.button {
+    background-color: rgb(67, 163, 230);
+    border-radius: 10px;
+    border-color: rgb(25, 33, 41);
 }
